@@ -1,13 +1,17 @@
 # Crowdfunding_ETL
 
 # The Challenge
-Congratulations! You've decided to treat yourself to a long holiday vacation in Honolulu, Hawaii. To help with your trip planning, you decide to do a climate analysis about the area. The following sections outline the steps that you need to take to accomplish this task.In this section, you’ll use Python and SQLAlchemy to do a basic climate analysis and data exploration of your climate database. Specifically, you’ll use SQLAlchemy ORM queries, Pandas, and Matplotlib. Perform a precipitation analysis and then a station analysis.
+For the ETL mini project, you will work with a partner to practice building an ETL pipeline using Python, Pandas, and either Python dictionary methods or regular expressions to extract and transform the data. After you transform the data, you'll create four CSV files and use the CSV file data to create an ERD and a table schema. Finally, you’ll upload the CSV file data into a Postgres database.
+Since this is a one-week project, make sure that you have done at least half of your project before the third day of class to stay on track.
+Although you and your partner will divide the work, it’s essential to collaborate and communicate while working on different parts of the project. Be sure to check in with your partner regularly and offer support.
 
 # The Process
-For the ETL mini project, we worked together to practice building an ETL pipeline using Python, Pandas, and either Python dictionary methods or regular expressions to extract and transform the data. After you transform the data, you'll create four CSV files and use the CSV file data to create an ERD and a table schema. Finally, you’ll upload the CSV file data into a Postgres database. The bulk of the work came from building and creating dataframes. We spent the most time here and had the most difficult portion to work through in cleaning up sections of the dataframes when changing data types.
+The process began by loading the dataset into a Pandas DataFrame from a CSV file and cleaning the data by addressing issues like missing values and duplicates. This ensured a high-quality dataset for analysis.
+The next step involved exploring the data, where key variables were visualized to uncover patterns using Matplotlib. The focus then shifted to sentiment analysis, categorizing reviews as positive, negative, or neutral. Option one of using python dictionaries was implemented in this project to create the contact csv. Matplotlib was also used for visualizing findings through charts.
+In the final stages, PostgreSQL was chosen to efficiently import CSV files, and code was employed to display data tables for a closer look. This comprehensive approach, covering data cleaning, exploration, sentiment analysis, and PostgreSQL integration, provided valuable insights into customer sentiments and potential connections between ratings and product categories.
 
 # What’s included?
-Within this repo you will find my part one climate_starter.ipynb file within the first folder titled Starter_Code. To get to part 2 you will then open the folder Resources. There you will find the files named app.py, hawaii.sqlite, hawaii_measurements.csv, and hawaii_stations.csv. The file titled app.py will have the code used for part two and will run the url that is needed to get the results prompted. I have included photos of the different routes/web pages below.
+Within this repo you will find in the Starter_Files folder our Jupyter Notebook code named M_Daubenspeck_and_T_Elliott.ipynb, as well as our resources folder. Within the Resources folder you will find the campaign.csv, the category.csv, the contacts.csv, the contacts.xlsx, the crowdfunding.xlsx, the subcategory.csv, as well as our crowdfunding_db_schema.sql file.
 
 # Sources
 https://sparkbyexamples.com/pandas/pandas-set-order-of-columns-in-dataframe/
